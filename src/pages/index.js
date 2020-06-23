@@ -55,7 +55,7 @@ export default function Home() {
             <Col span={16} style={{ background: "white", padding: "10px" }}>
               <div className={styles.title}>Projects</div>
               <Row justify="center" gutter={[26, 26]}>
-                <Col span={6}>
+                <Col xs={24} sm={24} md={6} lg={6} xl={6}>
                   <div className={card}>
                     <img
                       className="card-img-top"
@@ -84,7 +84,7 @@ export default function Home() {
                     </div>
                   </div>
                 </Col>
-                <Col span={6}>
+                <Col xs={24} sm={24} md={6} lg={6} xl={6}>
                   <div className={card}>
                     <img
                       className="card-img-top"
@@ -114,7 +114,7 @@ export default function Home() {
                     </div>
                   </div>
                 </Col>
-                <Col span={6}>
+                <Col xs={24} sm={24} md={6} lg={6} xl={6}>
                   <div className={card}>
                     <img
                       className="card-img-top"
@@ -146,7 +146,7 @@ export default function Home() {
                     </div>
                   </div>
                 </Col>
-                <Col span={6}>
+                <Col xs={24} sm={24} md={6} lg={6} xl={6}>
                   <div className={card}>
                     <img
                       className="card-img-top"
