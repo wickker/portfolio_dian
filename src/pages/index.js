@@ -1,7 +1,7 @@
 import React from "react"
 import styles from "./styles.module.css"
 import "../../node_modules/bootstrap/dist/css/bootstrap.min.css"
-import { Row, Col, Divider } from "antd"
+import { Row, Col, Divider, Tag } from "antd"
 import "antd/dist/antd.css"
 import LinkedIn from "./linkedin-brands.svg"
 import GitHub from "./github-square-brands.svg"
@@ -68,9 +68,16 @@ export default function Home() {
                         A centralized system for scheduling classes in addition
                         to recording and tabulating attendance. Users are able
                         to track and collect supporting documentation in image
-                        or PDF format for abseneces and tardiness. Class
-                        sessions may also be created and viewed via a
-                        custom-built monthly scheduler.
+                        or PDF format for absences and tardiness. Class sessions
+                        may also be created and viewed via a custom-built
+                        monthly scheduler.
+                      </div>
+                      <div className={styles.tags}>
+                        <Tag color="geekblue">Express.js</Tag>
+                        <Tag color="geekblue">Material-UI</Tag>
+                        <Tag color="geekblue">PostgreSQL</Tag>
+                        <Tag color="geekblue">React.js</Tag>
+                        <Tag color="geekblue">React Router</Tag>
                       </div>
                       <div>
                         <a
@@ -78,7 +85,13 @@ export default function Home() {
                           target="_blank"
                           className={styles.button}
                         >
-                          See Demo
+                          Demo
+                        </a>
+                        <a
+                          href="https://github.com/wickker/my-classroom"
+                          target="_blank"
+                        >
+                          <img className={styles.icon_card} src={GitHub} />
                         </a>
                       </div>
                     </div>
@@ -101,14 +114,24 @@ export default function Home() {
                         events and meet-ups with other pet owners and their
                         pets.
                       </div>
-
+                      <div className={styles.tags}>
+                        <Tag color="geekblue">PostgreSQL</Tag>
+                        <Tag color="geekblue">Ruby</Tag>
+                        <Tag color="geekblue">Ruby on Rails</Tag>
+                      </div>
                       <div>
                         <a
                           href="http://pet-playdates.herokuapp.com/"
                           target="_blank"
                           className={styles.button}
                         >
-                          See Demo
+                          Demo
+                        </a>
+                        <a
+                          href="https://github.com/dyanawu/sei-proj-petplaydates"
+                          target="_blank"
+                        >
+                          <img className={styles.icon_card} src={GitHub} />
                         </a>
                       </div>
                     </div>
@@ -134,13 +157,24 @@ export default function Home() {
                         information with ease and Google Maps API for members of
                         the public to locate prospective clubs.
                       </div>
+                      <div className={styles.tags}>
+                        <Tag color="geekblue">Bootstrap</Tag>
+                        <Tag color="geekblue">Express.js</Tag>
+                        <Tag color="geekblue">PostgreSQL</Tag>
+                      </div>
                       <div>
                         <a
                           href="https://gentle-castle-21661.herokuapp.com/"
                           target="_blank"
                           className={styles.button}
                         >
-                          See Demo
+                          Demo
+                        </a>
+                        <a
+                          href="https://github.com/wickker/project2"
+                          target="_blank"
+                        >
+                          <img className={styles.icon_card} src={GitHub} />
                         </a>
                       </div>
                     </div>
@@ -151,7 +185,7 @@ export default function Home() {
                     <img
                       className="card-img-top"
                       src="https://i.imgur.com/aDUAymp.jpg"
-                      alt="PawDates"
+                      alt="Conway's Game of Life"
                     />
                     <div className="card-body">
                       <div className={styles.card_title}>
@@ -162,13 +196,22 @@ export default function Home() {
                         modeled after Conway's Game of Life. Players are able to
                         save games and adjust the speed of gameplay animation.
                       </div>
+                      <div className={styles.tags}>
+                        <Tag color="geekblue">JavaScript</Tag>
+                      </div>
                       <div>
                         <a
                           href="https://wickker.github.io/project1-game/"
                           target="_blank"
                           className={styles.button}
                         >
-                          See Demo
+                          Demo
+                        </a>
+                        <a
+                          href="https://github.com/wickker/project1-game"
+                          target="_blank"
+                        >
+                          <img className={styles.icon_card} src={GitHub} />
                         </a>
                       </div>
                     </div>
@@ -183,7 +226,11 @@ export default function Home() {
               <Row justify="center">
                 <Col
                   span={20}
-                  style={{ background: "#EBEBEB", padding: "10px", marginBottom: "20px" }}
+                  style={{
+                    background: "#EBEBEB",
+                    padding: "10px",
+                    marginBottom: "20px",
+                  }}
                 >
                   <div className={styles.abt_text}>
                     <div>
@@ -199,8 +246,8 @@ export default function Home() {
                     <div>
                       I enjoy building programmes that stream-line workflow and
                       increase productivity. My current portfolio is indeed very
-                      much inspired by the issues I encountered in my previous line
-                      of work.
+                      much inspired by the issues I encountered in my previous
+                      line of work.
                     </div>
                     <br />
                     <div>

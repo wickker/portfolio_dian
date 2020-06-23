@@ -76,6 +76,7 @@
   font-family: 'Raleway', sans-serif;
   color: #4D565D;
   margin-bottom: 10px;
+  font-weight: bold;
 }
 
 .card_text {
@@ -83,6 +84,10 @@
   font-size: 14px;
   font-family: 'Raleway', sans-serif;
   color: black;
+  margin-bottom: 20px;
+}
+
+.tags {
   margin-bottom: 20px;
 }
 
@@ -103,6 +108,15 @@
   font-style: italic;
 }
 
+.icon_card {
+  height: 40px;
+  width: 40px;
+}
+
+.icon_card:hover {
+  background: lightblue;
+}
+
 .button {
   font-family: 'Inter';
   font-size: 14px;
@@ -113,6 +127,7 @@
   border: none;
   margin-top: 10px;
   margin-bottom: 10px;
+  margin-right: 10px;
   padding: 10px 25px;
   box-shadow: 0 8px 6px -6px black;
 }
