@@ -235,7 +235,7 @@ export default function Home() {
                 left: "0",
               }}
             >
-              <div className={styles.footer}>©2020, Built with Gatsby</div>
+              <div className={styles.footer}>©2020, Built with Gatsby.js</div>
             </Col>
           </Row>
         </Col>
